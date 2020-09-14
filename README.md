@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/nisha235/Project4--Operationalise-ML-Model.svg?style=svg)](https://circleci.com/gh/nisha235/Project4--Operationalise-ML-Model)
 
 ## Project Overview
 
