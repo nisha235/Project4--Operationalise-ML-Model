@@ -1,0 +1,12 @@
+49.36.151.11 - - [14/Sep/2020 08:42:06] "GET / HTTP/1.1" 200 -
+49.36.151.11 - - [14/Sep/2020 08:42:07] "GET /favicon.ico HTTP/1.1" 404 -
+[2020-09-14 08:52:32,899] INFO in app: JSON payload: 
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+[2020-09-14 08:52:32,913] INFO in app: Inference payload DataFrame: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-09-14 08:52:32,923] INFO in app: Scaling Payload: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-09-14 08:52:32,926] INFO in app: The output prediction is [20.35373177134412]
+172.17.0.1 - - [14/Sep/2020 08:52:32] "POST /predict HTTP/1.1" 200 -
